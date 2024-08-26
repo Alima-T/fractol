@@ -11,6 +11,7 @@ Two famous fractals explored in this project are the Mandelbrot set and the Juli
 2. The Julia set is a fractal with unique and complex patterns, each displaying infinite detail.
 
 In this project I used the MLX42 library (MiniLibX42), which I cloned and installed from this repository: 
-[codam-coding-college/MLX42] ("https://github.com/codam-coding-college/MLX42)
+
+codam-coding-college/MLX42 "https://github.com/codam-coding-college/MLX42
  
  
