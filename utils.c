@@ -6,7 +6,7 @@
 /*   By: alima <alima@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/23 23:00:59 by alima             #+#    #+#             */
-/*   Updated: 2024/08/26 13:46:47 by alima            ###   ########.fr       */
+/*   Updated: 2024/08/26 22:11:13 by alima            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,3 +37,30 @@ void	ft_putstr_fd(char *s, int fd)
 		s++;
 	}
 }
+// int	ft_atoi(const char *str)
+// {
+// 	int	number;
+// 	int	negative_sign;
+
+// 	number = 0;
+// 	negative_sign = 1;
+// 	while (*str != '\0' && ((*str >= '\t' && *str <= '\r') || *str == ' '))
+// 		str++;
+// 	if (*str != '\0' && (*str == '+' || *str == '-'))
+// 		if (*str++ == '-')
+// 			negative_sign *= -1;
+// 	number = 0;
+// 	while (*str != '\0' && (*str >= '0' && *str <= '9'))
+// 	{
+// 		number = number * 10 + (*str - '0');
+// 		str++;
+// 	}
+// 	return (number * negative_sign);
+// }
+
+int	ft_atodbl(const char *str) //TODO like atoi, but instead of int -> double
+{
+	//code
+	return(0);
+}
+

@@ -6,7 +6,7 @@
 /*   By: alima <alima@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/23 09:46:51 by alima             #+#    #+#             */
-/*   Updated: 2024/08/26 13:57:42 by alima            ###   ########.fr       */
+/*   Updated: 2024/08/26 22:11:39 by alima            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,15 +61,17 @@ TL, DR
 
 int main(int argc, char **argv)
 {
-    if(2 == argc && ft_strncmp(argv[1], "mandelbrot", 10)
-    || (4 == argc && ft_strncmp(argv[1], "julia", 5)))
-    {
-      // TODO the main code to kick off the application  
-       
-    }
-    else  
-    {
-        write(1, "Wrong request.\n", 15); // TODO  ERROR_MESSAGE
-        exite(EXIT_FAILURE);
-    }
+	t_fractal	fractal;
+	
+	if(2 == argc && ft_strncmp(argv[1], "mandelbrot", 10)
+	|| (2 == argc && ft_strncmp(argv[1], "julia", 5)))
+	{
+	  // TODO the main code to kick off the application  
+	   
+	}
+	else  
+	{
+		write(1, "Wrong request.\n", 15); // TODO  ERROR_MESSAGE
+		exite(EXIT_FAILURE);
+	}
 }
